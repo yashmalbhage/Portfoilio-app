@@ -67,24 +67,24 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
                 </h3>
                 <div className="mb-4">
                   <p className={`font-medium ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-                    Computer Science Engineering
+                    Computer Science
                   </p>
                   <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                     2020 - 2024
                   </p>
                   <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-                    Bachelor of Technology
+                    Bachelor of Engineering
                   </p>
                 </div>
                 
-                <h3 className={`text-xl font-semibold mb-4 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                {/* <h3 className={`text-xl font-semibold mb-4 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
                   Languages
                 </h3>
                 <ul className={`list-disc list-inside ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
                   <li>English (Professional)</li>
                   <li>Hindi (Native)</li>
                   <li>Marathi (Native)</li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

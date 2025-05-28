@@ -46,7 +46,7 @@ const SkillBar: React.FC<SkillBarProps> = ({ name, percentage, darkMode }) => {
           {name}
         </span>
         <span className={`${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-          {percentage}%
+          {/* {percentage}% */}
         </span>
       </div>
       <div 
@@ -89,19 +89,19 @@ const Skills: React.FC<SkillProps> = ({ darkMode }) => {
   }, []);
 
   const frontendSkills = [
-    { name: 'HTML/CSS', percentage: 90 },
-    { name: 'JavaScript', percentage: 85 },
-    { name: 'React.js', percentage: 85 },
-    { name: 'TypeScript', percentage: 80 },
-    { name: 'Next.js', percentage: 75 },
+    { name: 'HTML/CSS', percentage: 100 },
+    { name: 'JavaScript', percentage: 100 },
+    { name: 'React.js', percentage: 100 },
+    { name: 'TypeScript', percentage: 100 },
+    { name: 'Next.js', percentage: 100 },
   ];
 
   const backendSkills = [
-    { name: 'Node.js', percentage: 85 },
-    { name: 'Express.js', percentage: 80 },
-    { name: 'MongoDB', percentage: 75 },
-    { name: 'SQL', percentage: 70 },
-    { name: 'REST API', percentage: 85 },
+    { name: 'Node.js', percentage: 100 },
+    { name: 'Express.js', percentage: 100 },
+    { name: 'MongoDB', percentage: 100 },
+    { name: 'SQL', percentage: 100 },
+    { name: 'REST API', percentage: 100 },
   ];
 
   const otherSkills = [

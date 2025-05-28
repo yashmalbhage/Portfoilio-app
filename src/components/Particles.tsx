@@ -32,8 +32,8 @@ const Particles: React.FC = () => {
         this.directionX = (Math.random() - 0.5) * 0.5;
         this.directionY = (Math.random() - 0.5) * 0.5;
         this.size = Math.random() * 2 + 0.5;
-        this.color = 'rgba(66, 153, 225, 0.5)'; // Blue color with transparency
-        this.speed = Math.random() * 0.2 + 0.1;
+        this.color = 'rgba(66, 193, 225, 0.5)'; // Blue color with transparency
+        this.speed = Math.random() * 0.2 + 3;
       }
 
       update() {

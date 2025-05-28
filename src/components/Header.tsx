@@ -84,14 +84,14 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
             >
               Contact
             </button>
-            <a 
+            {/* <a 
               href="/resume.pdf" 
               className={`flex items-center transition-all duration-300 ${darkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-black'}`}
               download
             >
               <Download size={16} className="mr-1" />
               Resume
-            </a>
+            </a> */}
             <button
               onClick={toggleDarkMode}
               className={`p-2 rounded-full transition-all duration-300 ${
@@ -160,7 +160,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
                 >
                   Contact
                 </button>
-                <a 
+                {/* <a 
                   href="/resume.pdf" 
                   className={`flex items-center py-2 transition-colors duration-300 ${
                     darkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-black'
@@ -169,7 +169,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
                 >
                   <Download size={18} className="mr-2" />
                   Resume
-                </a>
+                </a> */}
               </nav>
             </div>
           </div>
